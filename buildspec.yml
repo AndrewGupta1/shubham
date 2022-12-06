@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "this is shubham"
+  build:
+    commands:
+      - echo "deploye to s3"
+artifacts:
+  files:
+    - '**/*'
